@@ -11,9 +11,8 @@ export class BusyService {
 
   busy() {
     this.busyRequestCount++;
-    console.log(this.busyRequestCount)
     this.spinnerService.show(undefined, {
-      type: 'square-jelly-box',
+      type: 'ball-atom',
       bdColor: 'rgba(255, 255, 255, 0.8)',
       color: '#000000'
     });
